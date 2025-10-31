@@ -16,11 +16,11 @@ const app = express();
 app.use(express.json());
 
 const allowedOrigins = [
+    'https://expense-tracker-pka3fr28s-moyo-sas-projects.vercel.app',
+    'https://expense-tracker-git-main-moyo-sas-projects.vercel.app',
     'https://expense-tracker-seven-xi-37.vercel.app',
-    'http://localhost:5173',
-    'http://localhost:3000',
     'https://expense-tracker-moyo-sas-projects.vercel.app',
-    'https://expense-tracker-git-main-moyo-sas-projects.vercel.app'
+
 ];
 
 const corsOptions = {
